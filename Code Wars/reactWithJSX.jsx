@@ -24,3 +24,5 @@ var Leaderboard = React.createClass({
     );
   }
 });
+
+console.log('David');
