@@ -4,11 +4,14 @@ let React = require('react')
 // mantain this format, but choose any three users you want:
 // <h1>My three favorite codewarriors are noLan, jhoffner and OverZealous</h1>
 
+
 var myHeader = <h1> My three favorite codewarriors are noLan, jhoffner and OverZealous</h1>
 
 
 
 
+
+var myHeader = <h1>My three favorite codewarriors are noLan, jhoffner and OverZealous</h1>
 
 
 var CodewarsLink = React.createClass({
@@ -23,12 +26,19 @@ var Leaderboard = React.createClass({
   render: function() {
     return (
       <div>
+
         {this.props.leaders.map(function(leader) {
+        {this.props.leaders.map((leader)=>{
+
           return <CodewarsLink user={leader} key={leader} />;
         })}
       </div>
     );
   }
+
 });
 
 console.log('Anne')
+
+});
+
