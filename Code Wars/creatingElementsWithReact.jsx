@@ -13,17 +13,17 @@ function createElement(content, tag='div', props={}) {
 function createUnorderedList(list) { 
   // create a react unordered list with children list items created form the list argument
 
-   const listItems = list.map(item => React.createElement(
+   const ourList = list.map(i => React.createElement(
      'li',
-     { key: item },
-     item = "Hello World"
+     { key: i },
+     i = "Hello World"
 
    )
   );
   return React.createElement(
     'ul', 
     null, 
-    ...listItems);
+    ...ourList);
 }
 console.log('David');
 console.log('Hamza');
