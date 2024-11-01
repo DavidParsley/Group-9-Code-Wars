@@ -30,3 +30,5 @@ var Leaderboard = React.createClass({
     );
   }
 });
+
+console.log('Anne')
