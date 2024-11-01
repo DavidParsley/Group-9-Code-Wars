@@ -22,4 +22,4 @@ function createUnorderedList(list) {
     null, 
     ...group);
 }
-()
+console.log('David');
