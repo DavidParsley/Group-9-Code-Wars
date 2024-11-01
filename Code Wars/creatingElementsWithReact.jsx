@@ -1,10 +1,11 @@
 var React = require("react");
 
-function createElement(content, tag='div', props={}) {
+
+function createElement(content, tag="div", props={}) {
   // create a react element here
-   return React.createElement(
+ return React.createElement(
      tag,
-     props,
+     props ,
     'Hello World'
   );
 }
@@ -22,4 +23,5 @@ function createUnorderedList(list) {
     null, 
     ...group);
 }
+
 
