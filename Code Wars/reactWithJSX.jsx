@@ -26,3 +26,7 @@ var Leaderboard = React.createClass({
 });
 
 console.log('David');
+console.log('Hamza');
+console.log('Anne');
+console.log('Blessed');
+console.log('Victor');

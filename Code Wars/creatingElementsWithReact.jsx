@@ -23,3 +23,7 @@ function createUnorderedList(list) {
     ...group);
 }
 console.log('David');
+console.log('Hamza');
+console.log('Anne');
+console.log('Blessed');
+console.log('Victor');
