@@ -5,6 +5,5 @@
 * Hamza
 * Anne
 * Malik
-* Blessing
-* Vincent
+* Blessed
 

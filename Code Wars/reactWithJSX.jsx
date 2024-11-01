@@ -1,9 +1,11 @@
+
 let React = require('react');
 
 // let us know who your three favorite codewarriors are!
 // maintain this format, but choose any three users you want:
 // <h1>My three favorite codewarriors are noLan, jhoffner and OverZealous</h1>
 var myHeader = <h1>My three favorite codewarriors are noLan, jhoffner and OverZealous</h1>;
+
 
 var CodewarsLink = React.createClass({
   render: function() {
@@ -24,3 +26,4 @@ var Leaderboard = React.createClass({
     );
   }
 });
+
