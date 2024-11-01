@@ -18,6 +18,7 @@ var Leaderboard = React.createClass({
   render: function() {
     return (
       <div>
+
         {this.props.leaders.map(function(leader) {
           return <CodewarsLink user={leader} key={leader} />;
         })}
@@ -25,5 +26,6 @@ var Leaderboard = React.createClass({
     );
   }
 });
+
 
 // console.log (Hamza)
